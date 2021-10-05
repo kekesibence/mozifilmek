@@ -1,0 +1,36 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputok {
+    padding: 5px;
+    display: block;
+    float: center;
+    align-items: center;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(236, 202, 158);
+    font-weight: bold;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+#hibaCim {
+    padding: 0%;
+}
+
+#hibaHossz {
+    padding: 0%;
+}
+
+p {
+    padding-top: 0%;
+}
