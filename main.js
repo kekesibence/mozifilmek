@@ -10,7 +10,11 @@ class Film {
     toString() {
         return this.cim + " " + this.rendezo+ " " +this.kiadasiEv;
     }
-    elkuldes() 
+    elkuldes() {
+        const filmek = new Array();
+        const film = new Film(document.getElementById('filmCim'), document.getElementById('filmRendezo'), document.getElementById('filmKiadasiEv'));
+        return film;
+    }
 }
 
 
